@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://gjr7ej0ncln1"]
+
+[ext_resource type="PackedScene" uid="uid://1n6h6n3pxu25" path="res://scenes/floor_tile.tscn" id="1_h3aam"]
+[ext_resource type="PackedScene" uid="uid://c3tpi12wn6w8r" path="res://scenes/slime.tscn" id="2_unwib"]
+[ext_resource type="PackedScene" uid="uid://bq2fgspcx1umo" path="res://scenes/floor.tscn" id="3_u0h0u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_h3aam")]
+position = Vector2(491, 562)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("1_h3aam")]
+position = Vector2(523, 562)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("1_h3aam")]
+position = Vector2(555, 562)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("1_h3aam")]
+position = Vector2(587, 562)
+
+[node name="StaticBody2D5" parent="." instance=ExtResource("1_h3aam")]
+position = Vector2(619, 562)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_unwib")]
+position = Vector2(74, 37)
+
+[node name="Node2D" parent="." instance=ExtResource("3_u0h0u")]
+position = Vector2(0, 622)

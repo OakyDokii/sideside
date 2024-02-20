@@ -1,0 +1,113 @@
+[gd_scene load_steps=2 format=3 uid="uid://bq2fgspcx1umo"]
+
+[ext_resource type="PackedScene" uid="uid://1n6h6n3pxu25" path="res://scenes/floor_tile.tscn" id="1_ealv7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(16, 10)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(48, 10)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(80, 10)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(112, 10)
+
+[node name="StaticBody2D5" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(144, 10)
+
+[node name="StaticBody2D6" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(176, 10)
+
+[node name="StaticBody2D7" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(208, 10)
+
+[node name="StaticBody2D8" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(240, 10)
+
+[node name="StaticBody2D9" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(272, 10)
+
+[node name="StaticBody2D10" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(304, 10)
+
+[node name="StaticBody2D11" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(336, 10)
+
+[node name="StaticBody2D12" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(368, 10)
+
+[node name="StaticBody2D13" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(400, 10)
+
+[node name="StaticBody2D14" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(432, 10)
+
+[node name="StaticBody2D15" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(464, 10)
+
+[node name="StaticBody2D16" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(496, 10)
+
+[node name="StaticBody2D17" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(528, 10)
+
+[node name="StaticBody2D18" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(560, 10)
+
+[node name="StaticBody2D19" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(592, 10)
+
+[node name="StaticBody2D20" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(624, 10)
+
+[node name="StaticBody2D21" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(656, 10)
+
+[node name="StaticBody2D22" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(688, 10)
+
+[node name="StaticBody2D23" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(720, 10)
+
+[node name="StaticBody2D24" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(752, 10)
+
+[node name="StaticBody2D25" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(784, 10)
+
+[node name="StaticBody2D26" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(816, 10)
+
+[node name="StaticBody2D27" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(848, 10)
+
+[node name="StaticBody2D28" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(880, 10)
+
+[node name="StaticBody2D29" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(912, 10)
+
+[node name="StaticBody2D30" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(944, 10)
+
+[node name="StaticBody2D31" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(976, 10)
+
+[node name="StaticBody2D32" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(1008, 10)
+
+[node name="StaticBody2D33" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(1040, 10)
+
+[node name="StaticBody2D34" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(1072, 10)
+
+[node name="StaticBody2D35" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(1104, 10)
+
+[node name="StaticBody2D36" parent="." instance=ExtResource("1_ealv7")]
+position = Vector2(1136, 10)
