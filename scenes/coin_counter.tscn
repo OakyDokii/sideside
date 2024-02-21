@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cc8k1qd3jmxwq"]
+
+[ext_resource type="Script" path="res://scripts/coin_counter.gd" id="1_6ejax"]
+
+[node name="Coin Counter" type="Label"]
+offset_right = 114.0
+offset_bottom = 72.0
+script = ExtResource("1_6ejax")
