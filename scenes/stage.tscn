@@ -1,37 +1,28 @@
-[gd_scene load_steps=6 format=3 uid="uid://gjr7ej0ncln1"]
+[gd_scene load_steps=5 format=3 uid="uid://gjr7ej0ncln1"]
 
-[ext_resource type="PackedScene" uid="uid://1n6h6n3pxu25" path="res://scenes/floor_tile.tscn" id="1_h3aam"]
 [ext_resource type="PackedScene" uid="uid://c3tpi12wn6w8r" path="res://scenes/slime.tscn" id="2_unwib"]
-[ext_resource type="PackedScene" uid="uid://bq2fgspcx1umo" path="res://scenes/floor.tscn" id="3_u0h0u"]
+[ext_resource type="PackedScene" uid="uid://dewmjnln4nqg0" path="res://scenes/level1_tileset.tscn" id="4_dvsbb"]
 [ext_resource type="PackedScene" uid="uid://oofcplf481aw" path="res://scenes/coin.tscn" id="4_ruix1"]
 [ext_resource type="PackedScene" uid="uid://cc8k1qd3jmxwq" path="res://scenes/coin_counter.tscn" id="5_i54ok"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="StaticBody2D" parent="." instance=ExtResource("1_h3aam")]
-position = Vector2(491, 562)
-
-[node name="StaticBody2D2" parent="." instance=ExtResource("1_h3aam")]
-position = Vector2(523, 562)
-
-[node name="StaticBody2D3" parent="." instance=ExtResource("1_h3aam")]
-position = Vector2(555, 562)
-
-[node name="StaticBody2D4" parent="." instance=ExtResource("1_h3aam")]
-position = Vector2(587, 562)
-
-[node name="StaticBody2D5" parent="." instance=ExtResource("1_h3aam")]
-position = Vector2(619, 562)
-
-[node name="Node2D" parent="." instance=ExtResource("3_u0h0u")]
-position = Vector2(0, 622)
-
 [node name="Coin" parent="." instance=ExtResource("4_ruix1")]
-position = Vector2(555, 521)
+position = Vector2(522, 521)
 
 [node name="Slime" parent="." instance=ExtResource("2_unwib")]
-position = Vector2(404, 590)
+position = Vector2(403, 556)
 
-[node name="Label" parent="." instance=ExtResource("5_i54ok")]
+[node name="Camera2D" type="Camera2D" parent="Slime"]
+zoom = Vector2(2, 2)
 
-[connection signal="body_entered" from="Coin" to="Label" method="_on_coin_body_entered"]
+[node name="Label" parent="Slime/Camera2D" instance=ExtResource("5_i54ok")]
+offset_left = -280.0
+offset_top = -156.0
+offset_right = -166.0
+offset_bottom = -84.0
+
+[node name="Node2D" parent="." instance=ExtResource("4_dvsbb")]
+position = Vector2(345, 647)
+
+[connection signal="body_entered" from="Coin" to="Slime/Camera2D/Label" method="_on_coin_body_entered"]
